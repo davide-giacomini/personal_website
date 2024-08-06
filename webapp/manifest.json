@@ -1,0 +1,11 @@
+{
+    "_version": "1.1.0",
+    "sap.app": {
+        "id": "ui5.personal-website",
+        "type": "application",
+        "title": "OpenUI5 Personal Website",
+        "applicationVersion": {
+            "version": "1.0.0"
+        }
+    }
+}
