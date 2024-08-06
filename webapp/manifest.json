@@ -4,8 +4,49 @@
         "id": "ui5.personal-website",
         "type": "application",
         "title": "OpenUI5 Personal Website",
+        "description": "Simple Website built with OpenUI5",
         "applicationVersion": {
             "version": "1.0.0"
+        }
+    },
+    "sap.ui": {
+        "technology": "UI5",
+        "deviceTypes": {
+            "desktop": true,
+            "tablet": true,
+            "phone": true
+        }
+    },
+    "sap.ui5": {
+        "contentDensities": {
+          "compact": false,
+          "cozy": false
+        },
+        "dependencies": {
+            "minUI5Version": "1.120",
+            "libs": {
+                "sap.ui.core": {},
+                "sap.m": {}
+            }
+        },
+        "rootView": {
+            "viewName": "it.davidegiacomini.view.App",
+            "type": "XML",
+            "id": "app"
+        },
+        "models": {
+            "i18n": {
+                "type": "sap.ui.model.resource.ResourceModel",
+                "settings": {
+                    "bundleName": "it.davidegiacomini.i18n.i18n",
+                    "supportedLocales": [
+                        "",
+                        "en_US",
+                        "it"
+                    ],
+                    "fallbackLocale": ""
+                }
+            }
         }
     }
 }

@@ -1,8 +1,21 @@
 <mvc:View
-   controllerName="it.davidegiacomini.controller.App"
-   xmlns="sap.m"
-   xmlns:mvc="sap.ui.core.mvc">
-   <Button
-      text="Say Hello"
-      press=".onShowHello"/>
+    controllerName="it.davidegiacomini.controller.App"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc">
+    <App>
+        <pages>
+            <Page title="{i18n>homePageTitle}">
+                <content>
+                    <Panel
+                        headerText="{i18n>helloPanelTitle}">
+                        <content>
+                            <Button
+                                text="{i18n>showHelloButtonText}"
+                                press=".onShowHello" />
+                        </content>
+                    </Panel>
+                </content>
+            </Page>
+        </pages>
+    </App>
 </mvc:View>
