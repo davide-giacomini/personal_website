@@ -7,6 +7,7 @@
         "start": "ui5 serve -o index.html"
     },
     "devDependencies": {
+        "@types/openui5": "^1.126.0",
         "@ui5/cli": "^4.0.3",
         "typescript": "^5.5.4",
         "ui5-middleware-livereload": "^3.0.3",
