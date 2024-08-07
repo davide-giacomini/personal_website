@@ -10,9 +10,6 @@
 					<content>
 						<mvc:XMLView viewName="it.davidegiacomini.view.Home"/>
 					</content>
-					<content>
-						<mvc:XMLView viewName="it.davidegiacomini.view.HelloWorldPanel"/>
-					</content>
 				</Page>
 			</pages>
 		</App>
