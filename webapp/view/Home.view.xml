@@ -6,9 +6,9 @@
 
 	<!-- Main Menu Bar -->
 	<Toolbar>
-		<Button text="Home" press=".onRedirect" />
-		<Button text="About" press=".onRedirect" />
-		<Button text="Contact" press=".onPressContact" />
+		<Button text="{i18n>home}" press=".onRedirect" />
+		<Button text="{i18n>about}" press=".onRedirect" />
+		<Button text="{i18n>contact}" press=".onPressContact" />
 	</Toolbar>
 
 </mvc:View>

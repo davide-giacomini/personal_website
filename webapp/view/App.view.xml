@@ -6,10 +6,20 @@
     <Shell>
 		<App id="app">
 			<pages>
-				<Page class="customPage" title="{i18n>homePageTitle}">
+				<Page title="{i18n>homePageTitle}">
+                    <headerContent>
+                        <Button text="EN" press=".onChangeLanguage($event, 'en')" />
+                        <Button text="IT" press=".onChangeLanguage($event, 'it')" />
+                    </headerContent>
 					<content>
 						<mvc:XMLView viewName="it.davidegiacomini.view.Home"/>
 					</content>
+                    <footer>
+                        <OverflowToolbar>
+                            <ToolbarSpacer/>
+                            <Button text="Footer Button" />
+                        </OverflowToolbar>
+                    </footer>
 				</Page>
 			</pages>
 		</App>
