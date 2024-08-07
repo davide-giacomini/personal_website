@@ -1,0 +1,13 @@
+<mvc:View
+    controllerName="it.davidegiacomini.controller.Contact"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc">
+	<Page
+        showNavButton="true"
+        navButtonPress=".onNavBack"
+		title="{i18n>contactPageTitle}">
+        <content>
+            <Button text="Go to Home" press=".onNavHome"></Button>
+        </content>
+	</Page>
+</mvc:View>

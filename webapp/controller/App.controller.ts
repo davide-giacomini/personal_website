@@ -1,11 +1,7 @@
 import Controller from "sap/ui/core/mvc/Controller";
-import MessageToast from "sap/m/MessageToast";
-
 /**
- * @name it.davidegiacomini.controller.App
+ * @namespace ui5.walkthrough.controller
  */
-export default class AppController extends Controller {
-    onShowHello(): void {
-        MessageToast.show("Hello World");
-    }
+export default class App extends Controller {
+
 };

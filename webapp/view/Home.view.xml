@@ -1,0 +1,14 @@
+<mvc:View
+	controllerName="it.davidegiacomini.controller.Home"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true">
+
+	<!-- Main Menu Bar -->
+	<Toolbar>
+		<Button text="Home" press=".onRedirect" />
+		<Button text="About" press=".onRedirect" />
+		<Button text="Contact" press=".onPressContact" />
+	</Toolbar>
+
+</mvc:View>

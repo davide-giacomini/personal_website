@@ -54,6 +54,43 @@
                 "uri": "css/style.css"
               }
             ]
-        } 
+        },          
+        "routing": {
+          "config": {
+            "routerClass": "sap.m.routing.Router",
+            "type": "View",
+            "viewType": "XML",
+            "path": "it.davidegiacomini.view",
+            "controlId": "app",
+            "controlAggregation": "pages"
+          },
+          "routes": [
+            {
+                "pattern": "",
+                "name": "",
+                "target": "home"
+            },
+            {
+                "pattern": "home",
+                "name": "home",
+                "target": "home"
+            },
+            {
+              "pattern": "contact",
+              "name": "contact",
+              "target": "contact"
+            }
+          ],
+          "targets": {
+            "home": {
+              "viewName": "App",
+              "viewLevel": 1
+            },
+            "contact": {
+              "viewName": "Contact",
+              "viewLevel": 2
+            }
+          }
+        }
     }
 }
