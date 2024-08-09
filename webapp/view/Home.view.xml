@@ -11,4 +11,9 @@
 		<Button text="{i18n>contact}" press=".onPressContact" />
 	</Toolbar>
 
+	<Text 
+		class="sapUiSmallMargin"
+	 	text="I am a Computer Engineer extremely fascinated by space exploration and all its implications. I am passionate about embedded systems, with particular attention towards distributed collaborative embedded systems common in IoT, such as smart home devices or autonomous car features." 
+	/>
+
 </mvc:View>

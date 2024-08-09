@@ -3,3 +3,14 @@
     font-weight: bold;
     text-decoration: underline;
 }
+
+.headerToolbar {
+    color: black;
+    height: 20px;
+}
+
+.languageButton {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}

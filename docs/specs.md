@@ -14,3 +14,9 @@ classDiagram
 ## Home Page
 
 The home page is going to contain a picture and my description.
+
+## Education Page
+
+## About Page
+
+## Contact Page

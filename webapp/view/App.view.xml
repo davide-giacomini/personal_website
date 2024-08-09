@@ -6,14 +6,17 @@
     <Shell>
 		<App id="app">
 			<pages>
-				<Page title="{i18n>homePageTitle}">
-                    <headerContent>
-                        <Button text="EN" press=".onChangeLanguage($event, 'en')" />
-                        <Button text="IT" press=".onChangeLanguage($event, 'it')" />
-                    </headerContent>
+				<Page showHeader="false">
+                    <content>
+                        <Toolbar class="headerToolbar">
+                            <ToolbarSpacer/>
+                            <Button class="languageButton" text="en" press=".onChangeLanguage($event, 'en')" />
+                            <Button class="languageButton" text="it" press=".onChangeLanguage($event, 'it')" />
+                        </Toolbar>
+                    </content>
 					<content>
 						<mvc:XMLView viewName="it.davidegiacomini.view.Home"/>
-					</content>
+					</content>  
                     <footer>
                         <OverflowToolbar>
                             <ToolbarSpacer/>

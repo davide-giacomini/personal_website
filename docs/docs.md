@@ -69,3 +69,7 @@ public onNavBack(): void {
     }
 } 
 ```
+
+## Controls
+
+The controls are the web components, as far as I understood. They are the building blocks of the UI. They are the buttons, the input fields, the tables, the lists, etc. They are the elements that the user interacts with.
